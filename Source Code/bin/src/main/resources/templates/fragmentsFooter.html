@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+<footer th:fragment="pro_footer">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" th:href="@{css/footer.css}">
+    <div class="container">
+        <!--Started Intro Content-->
+        <div class="context about">
+            <h2>About us</h2>
+            <ul class="social-icon">
+                <li><a href="https://www.facebook.com/profile.php?id=61561439217816"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+
+            </ul>
+        </div>
+        <!--End Intro Content-->
+        <!--Start Link Content-->
+        <div class="context links">
+            <h2>Tiện ích</h2>
+            <ul>
+                <li><a th:href="@{/home}">Home</a></li>
+                <li><a th:href="@{/client#login}">Login</a></li>
+                <li><a th:href="@{/client#register}">Sign in</a></li>
+                <li><a th:href="@{/client#company}">Company</a></li>
+                <li><a th:href="@{/client#about}">About us</a></li>
+            </ul>
+        </div>
+        <!--End Link Content-->
+        <!--Start context contact -->
+        <div class="context contact">
+            <h2>Contact</h2>
+            <ul class="info">
+                <li>
+                    <span><i class="fa fa-map-marker"></i></span>
+                    <span>Học viện Nông nghiệp Việt Nam<br />
+                         Trâu Quỳ, Gia Lâm, Hà Nội<br />
+                         Viet Nam</span>
+                </li>
+                <li>
+                    <span><i class="fa fa-phone"></i></span>
+                    <p><a href="#">098 126 64 03</a></p>
+                </li>
+                <li>
+                    <span><i class="fa fa-envelope"></i></span>
+                    <p><a href="#">hieutkhd03@gmail.com</a></p>
+                </li>
+                <li>
+                    <form class="form" action="https://formsubmit.co/hieutkhd03@gmail.com" method="POST">
+                        <input type="email" name="email" class="form__field" placeholder="Email Address" required style="color: black"/><br>
+                        <br>
+                        <textarea type="text" name="message" class="form__field" placeholder="Write your message" required style="color: black"></textarea>
+                        <button class="btn btn--primary  uppercase" type="submit" onclick="return confirm('Thank you!');">Send</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <!--End content contact-->
+    </div>
+    <p style="text-align: center; color: rgba(255,255,255,0.8); font-size: 16px;margin: 0 0 10px;">© 2024 Group6.</p>
+</footer>
+</html>

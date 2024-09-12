@@ -1,0 +1,4 @@
+Êþº¾   =   Esrc/main/java/vnua/aptech/OnlineLaundry/repository/TbpayslipRepository  java/lang/Object 
+SourceFile TbpayslipRepository.java 	Signature 6Ljava/lang/Object;LJpaRepository<LTbpayslip;LString;>; InconsistentHierarchy  JpaRepository  String  	Tbpayslip MissingTypes                    	        
+  
+   

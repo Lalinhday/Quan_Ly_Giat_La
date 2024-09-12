@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="fragmentsClient :: pro_head">
+</head>
+<link rel="stylesheet" th:href="@{css/pricesAndTips.css}">
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-143388487-1"></script>
+<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="favicons/manifest.json">
+<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+<!--Bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+<!--Google fonts-->
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+
+<body style="overflow-x:hidden;">
+<header th:replace="fragmentsClient :: pro_header">
+</header>
+<div id="cont-boder" class="cont-boder">
+    <!-- Carousel -->
+    <div style="width: 100%;max-height: 550px;margin: 0 auto;">
+        <div class="bootstap-carousel">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div id="ser" class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img th:src="@{images/imagesclient/may.jpg}" class="d-block w-100" height="570px" alt="...">
+                        <div class="carousel-caption d-none d-md-block fs-3">
+                            <h4>Nhắc nhở:</h4>
+                            <a th:href="@{/client#company}" style="color: #3333cc">Luôn giữ cho quần áo của bạn được sạch sẽ</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img th:src="@{images/imagesclient/may.jpg}" class="d-block w-100" height="570px" alt="...">
+                        <div class="carousel-caption d-none d-md-block fs-3">
+                            <h4>Nhắc nhở:</h4>
+                            <a th:href="@{/show_product#prices}" style="color: #3333cc">Luôn giữ cho quần áo của bạn được sạch sẽ</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img th:src="@{images/imagesclient/may.jpg}" class="d-block w-100"
+                             height="570px" alt="...">
+                        <div class="carousel-caption d-none d-md-block fs-3">
+                            <h4>Nhắc nhở:</h4>
+                            <a th:href="@{/show_product#faq}" style="color: #3333cc">
+                                Luôn giữ cho quần áo của bạn được sạch sẽ</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    <div id="services"></div>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container-fluid" style="background: #333;color: #EAEDED;margin-top: 20px;" >
+        <h2>DỊCH VỤ</h2>
+    </div>
+    <!-- Card1 -->
+    <boder>
+        <cont-card1>
+            <div th:each="be : ${list_best}" class="card1">
+                <div class="imgbox">
+                    <img th:src="@{${be.getServiceImagePath()}}" alt="img-card"/>
+                </div>
+                <div class="content">
+                    <h2 th:text="${be.getName()}">Card One</h2>
+                    <p th:text="${be.getDescription()}">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                        adipisci earum pariatur veritatis dolor, tempore, facilis minus rem nihil minima unde reiciendis
+                        illo officia non? Ad dolore rerum aut itaque?</p>
+                    <a th:href="@{'/addNowCart/'+${be.getId()}}" class="link btn-outline-success">Đặt hàng</a> ,&nbsp;<a
+                        th:href="@{'/getServices?id='+${be.getId()}}">Chi tiết >></a>
+                </div>
+                <h3>Best Choise</h3>
+            </div>
+            <!--                <div class="card1">-->
+            <!--                    <div class="imgbox">-->
+            <!--                        <img th:src="@{images/imagesclient/steam_iron.png}" alt="img-card" />-->
+            <!--                    </div>-->
+            <!--                    <div class="content">-->
+            <!--                        <h2>Steam Iron</h2>-->
+            <!--                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint adipisci earum pariatur veritatis dolor, tempore, facilis minus rem nihil minima unde reiciendis illo officia non? Ad dolore rerum aut itaque?</p>-->
+            <!--                        <a href="#" class="link btn-outline-success">Buy Now</a> ,&nbsp;<a href="#">More Details >></a>-->
+            <!--                    </div>-->
+            <!--                    <h3>Best Choise</h3>-->
+            <!--                </div>-->
+
+        </cont-card1>
+    </boder>
+    <!-- Box-card -->
+    <boder id="search">
+        <div class="box-card">
+            <!--            th:each="se : ${list_services}"-->
+            <div class="container-fluid" style="background: #333;color: #EAEDED;margin-top: 20px;" >
+                <h3>Xem thêm</h3>
+            </div>
+
+            <div th:each="se : ${services_list}" class="mini-box"
+                 style="background: linear-gradient(to right,lightcyan,#fffffa);">
+
+                <a th:href="@{'/getServices?id='+${se.getId()}}" style="text-decoration: none;"
+                   onmouseover="this.style.color='deepskyblue';this.style.border='1px solid deepskyblue'"
+                   onmouseout="this.style.color='deeppink'">
+                    <h4 th:text="${se.getName()}">Pear</h4>
+                    <div class="imgbx">
+                        <img th:src="@{'images/'+${se.getImage()}}" alt="image-services" width="200" height="170"/>
+                    </div>
+                    <div class="content">
+                        Chi tiết >>
+                    </div>
+                </a>
+            </div>
+            <div id="self"></div>
+        </div>
+
+    </boder>
+
+    <!--Prices Section-->
+    <div id="prices">
+        <div class="section-title text-center center">
+            <div class="overlay">
+                <h2>DỊCH VỤ KHÁC</h2>
+                <hr>
+                <p>
+                    Chất lượng đảm bảo và tiêu chuẩn mà bạn có thể tin tưởng</p>
+                <div id="service">
+                    <div class="container">
+                        <div class="row">
+                            <div class="text center">
+                                <div class="col-xs-12 col-sm-12">
+                                    <div>
+                                        <div class="menu-item-description">
+                                            <a th:href="@{/selfServices}" class="btn_sep btn-custom">
+                                                <span class="glyphicon glyphicon-scissors"></span>
+                                                Tự phục vụ
+                                            </a>
+
+                                            <a th:href="@{/specialCareItems}" class="btn_sep btn-custom">
+                                                <span class="glyphicon glyphicon-scissors"></span>
+                                                Chăm sóc đặc biệt
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tips_space"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Tips Section-->
+    <div id="tips">
+        <div class="section-title text-center center">
+            <div class="overlay">
+                <h2>Mẹo</h2>
+                <hr class="horizontal" style="opacity: inherit">
+                <p>
+
+                    Nhãn chăm sóc trên quần áo cung cấp cho bạn những hướng dẫn đặc biệt để giúp bạn giữ quần áo luôn đẹp
+                    tốt nhất của họ.
+                    Chúng tôi đã tập hợp một hướng dẫn hữu ích để bạn có thể xem nhanh ý nghĩa của tất cả các biểu tượng chăm sóc.
+                </p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img th:src="@{images/imagesclient/pricesAndTips/Clothing.jpg}" class="img-responsive"
+                         alt="Imagem Responsiva">
+                </div>
+                <div class="col-md-6">
+                    <img th:src="@{images/imagesclient/pricesAndTips/Laundry.jpg}" class="img-responsive"
+                         alt="Imagem Responsiva">
+                </div>
+                <div class="col-md-6">
+                    <img th:src="@{images/imagesclient/pricesAndTips/WashMean.jpg}" class="img-responsive"
+                         alt="Imagem Responsiva">
+                </div>
+                <div class="col-md-6">
+                    <img th:src="@{images/imagesclient/pricesAndTips/washtumbling.jpg}" class="img-responsive"
+                         alt="Imagem Responsiva">
+                </div>
+                <div class="col-md-6">
+                    <img th:src="@{images/imagesclient/pricesAndTips/Washexplained.jpg}" class="img-responsive"
+                         alt="Imagem Responsiva">
+                </div>
+                <div class="col-md-6">
+                    <img th:src="@{images/imagesclient/pricesAndTips/WashTips.jpg}" class="img-responsive"
+                         alt="Imagem Responsiva">
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div id="faq"></div>
+        </div>
+        <div id="question"></div>
+    </div>
+
+    <!--faq Section-->
+    <div class="section-title text-center center">
+        <div class="overlay">
+                <h2>CÁC CÂU HỎI THƯỜNG GẶP</h2>
+            <hr class="horizontal" style="opacity: inherit">
+            <p class="faq_title">Bạn có câu hỏi? Chúng tôi có câu trả lời!</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <p style="color: #33cc33; font-size: 18px">
+                <b> Giờ mở cửa?</b>
+            </p>
+            <p>Chúng tôi mở cửa từ 8 giờ sáng đến 10 giờ tối hàng ngày - 6 ngày một tuần (nghỉ Chủ Nhật). </p>
+            <br>
+            <p style="color: #33cc33; font-size: 18px">
+                <b>Tất cả các dịch vụ cung cấp?</b>
+            </p>
+            <p>Chúng tôi hiện đang cung cấp: Dịch vụ tự phục vụ/chăm sóc đặc biệt, Dịch vụ giặt trọn gói, là/ủi, giặt ướt/khô. </p>
+            <br>
+
+            <p style="color: #33cc33; font-size: 18px">
+                <b>Có cần tách biệt quần áo màu và quần áo trắng không?</b>
+            </p>
+            <p>Vâng! Khách hàng có trách nhiệm phân loại tất cả đồ vào túi để giặt. Nếu đồ trắng không tách khỏi đồ màu và được đem đi giặt khi bị ra màu, chúng tôi sẽ không chịu trách nhiệm.</p>
+            <br>
+            <p style="color: #33cc33; font-size: 18px">
+                <b>Nếu tôi bị dị ứng với một số loại chất tẩy rửa, tôi có cần mang theo chất tẩy rửa riêng không?</b>
+            </p>
+            <p>Sức khỏe của bạn rất quan trọng đối với chúng tôi, vì vậy bạn có thể yêu cầu sử dụng bột giặt không sinh học mà không phải trả thêm phí.</p>
+            <br>
+
+            <p style="color: #33cc33; font-size: 18px">
+                <b>Dịch vụ chăm sóc đặc biệt?</b>
+            </p>
+            <p>Đối với một số loại vải, cần phải có sự chăm sóc đặc biệt và không thể thực hiện được bằng dịch vụ giặt và sấy tiêu chuẩn. Đảm bảo kiểm tra nhãn chăm sóc và tách nó ra khỏi đồ giặt thông thường của bạn. Khi được thông báo, nhân viên của chúng tôi sẽ xử lý và tiến hành quy trình giặt hoặc sấy như khuyến nghị</p>
+            <br>
+            <p style="color: #33cc33; font-size: 18px">
+                <b>Nếu tôi nhận thấy thiếu thứ gì đó sau khi giặt hoặc sấy khô, tôi nên làm gì?</b>
+            </p>
+            <p>Hãy gọi cho chúng tôi ngay lập tức, chúng tôi sẽ làm tất cả những gì có thể để xác định vị trí mặt hàng của bạn. Mặc dù tất cả các dịch vụ và gắn thẻ đều được thực hiện riêng cho từng khách hàng nhưng vẫn có thể xảy ra sai sót. </p>
+            <br>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+</div>
+<br/><br/><br/><br/>
+<footer th:replace="fragmentsFooter :: pro_footer">
+
+</footer>
+<script th:inline="javascript">
+    if ([[${transaction}]] != null) {
+        alert("Giao dịch thành công! Vui lòng mở Lịch sử đặt hàng để kiểm tra đơn hàng của bạn.");// document.getElementById("cont-boder").innerHTML = document.write
+        // out.print("<div class='messErrorP' style='Background:LightCyan;color: Chocolate; border: solid 1px Cyan; border-radius: 1em; padding: 30px; font-family: system-ui; font-size: 30px; font-weight: bold; width: 100%; max-width: 800px; margin: 150px auto; box-shadow: 0 8px 12px 0 rgb(0 0 0 / 0.2), 0 6px 20px 0 rgb(0 0 0 / 0.19); text-align: center;'>"
+        //     + "Transaction successful.For more info we will call you soon!!!"
+        //     + "<br/><br/><a class='btn btn-danger messErrorA' href='/show_product' style='Background:LightCyan;color: Chocolate; border: solid 1px Cyan; border-radius: 1em; padding: 20px; font-family: system-ui; font-size: 30px; font-weight: bold; width: 100%; max-width: 800px; margin: 150px auto; box-shadow: 0 8px 12px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%); text-align: center;text-decoration: none;text-shadow: 4px 4px 0 rgb(0 0 0 / 10%);'>"
+        //     + "✔</a></div>");
+    }
+    if ([[${userEdit}]] != null) {
+        alert("Edit Success Info !!!");
+           // var a = document.write(`<div id='notify' class='messErrorP' style='Background:LightCyan;color: Chocolate; border: solid 1px Cyan; border-radius: 1em; padding: 30px; font-family: system-ui; font-size: 30px; font-weight: bold; width: 100%; max-width: 800px; margin: 150px auto; box-shadow: 0 8px 12px 0 rgb(0 0 0/ 20%), 0 6px 20px 0 rgb(0 0 0/ 19%); text-align: center;'>`
+           //  + `Edit Success Info !!!`
+           //  + `<br/><br/><a class='btn btn-danger messErrorA' href='/show_product' style='Background:LightCyan;color: Chocolate; border: solid 1px Cyan; border-radius: 1em; padding: 20px; font-family: system-ui; font-size: 30px; font-weight: bold; width: 100%; max-width: 800px;box-shadow: 0 8px 12px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%); text-align: center;text-decoration: none;text-shadow: 4px 4px 0 rgb(0 0 0 / 10%);'>✔</a></div>`);
+    }
+</script>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>

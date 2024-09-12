@@ -1,0 +1,128 @@
+Êþº¾   = a  5src/main/java/vnua/aptech/OnlineLaundry/model/Services  java/lang/Object id LLong; RuntimeInvisibleAnnotations LId; LGeneratedValue; strategy name Ljava/lang/String; 
+LNotBlank; message LSize; max price I 	LNotNull; LMin; value LMax; type image description order_detailCollection LCollection; 	Signature ILCollection<Lsrc/main/java/vnua/aptech/OnlineLaundry/model/Order_detail;>; LOneToMany; mappedBy cascade <init> ()V Code % java/lang/Error '
+ýUnresolved compilation problems: 
+	The declared package "vnua.aptech.OnlineLaundry.model" does not match the expected package "src.main.java.vnua.aptech.OnlineLaundry.model"
+	The import javax cannot be resolved
+	The import javax cannot be resolved
+	The import java.io cannot be resolved
+	The import java.util cannot be resolved
+	Entity cannot be resolved to a type
+	Serializable cannot be resolved to a type
+	Id cannot be resolved to a type
+	GeneratedValue cannot be resolved to a type
+	GenerationType cannot be resolved to a variable
+	Long cannot be resolved to a type
+	NotBlank cannot be resolved to a type
+	Size cannot be resolved to a type
+	String cannot be resolved to a type
+	NotNull cannot be resolved to a type
+	Min cannot be resolved to a type
+	Max cannot be resolved to a type
+	NotBlank cannot be resolved to a type
+	Size cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	OneToMany cannot be resolved to a type
+	CascadeType cannot be resolved to a variable
+	Collection cannot be resolved to a type
+	Implicit super constructor Object() is undefined. Must explicitly invoke another constructor
+	Implicit super constructor Object() is undefined. Must explicitly invoke another constructor
+	NotBlank cannot be resolved to a type
+	String cannot be resolved to a type
+	NotNull cannot be resolved to a type
+	Min cannot be resolved to a type
+	NotBlank cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	Long cannot be resolved to a type
+	Long cannot be resolved to a type
+	Long cannot be resolved to a type
+	Long cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	Collection cannot be resolved to a type
+	Collection cannot be resolved to a type
+	Collection cannot be resolved to a type
+	Collection cannot be resolved to a type
+	Transient cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	Long cannot be resolved to a type
+	String cannot be resolved to a type
+
+ $ ) ! * (Ljava/lang/String;)V LineNumberTable LocalVariableTable this 7Lsrc/main/java/vnua/aptech/OnlineLaundry/model/Services; L(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V $RuntimeInvisibleParameterAnnotations getId ()LLong; 4 hUnresolved compilation problems: 
+	Long cannot be resolved to a type
+	Long cannot be resolved to a type
+ setId 	(LLong;)V getName ()Ljava/lang/String; : lUnresolved compilation problems: 
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+ setName getPrice ()I ? !Unresolved compilation problem: 
+ setPrice (I)V getType setType getImage setImage getDescription setDescription getOrder_detailCollection ()LCollection; K()LCollection<Lsrc/main/java/vnua/aptech/OnlineLaundry/model/Order_detail;>; L tUnresolved compilation problems: 
+	Collection cannot be resolved to a type
+	Collection cannot be resolved to a type
+ setOrder_detailCollection (LCollection;)V L(LCollection<Lsrc/main/java/vnua/aptech/OnlineLaundry/model/Order_detail;>;)V getServiceImagePath LTransient; S ÜUnresolved compilation problems: 
+	Transient cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	Long cannot be resolved to a type
+	String cannot be resolved to a type
+ 
+SourceFile Services.java LEntity; InconsistentHierarchy Y 
+Collection [ Long ] Serializable _ java/lang/String MissingTypes !             
+     	          
+                                 
+                                     ! "  #   4     
+» $Y&· (¿    +        ,       
+ - .    ! /  0                       #   4     
+» $Y&· (¿    +        ,       
+ - .    1 2  #   4     
+» $Y3· (¿    +       - ,       
+ - .    5 6  #   4     
+» $Y3· (¿    +       1 ,       
+ - .    7 8  #   4     
+» $Y9· (¿    +       5 ,       
+ - .    ; *  #   4     
+» $Y9· (¿    +       9 ,       
+ - .    < =  #   4     
+» $Y>· (¿    +       = ,       
+ - .    @ A  #   4     
+» $Y>· (¿    +       A ,       
+ - .    B 8  #   4     
+» $Y9· (¿    +       E ,       
+ - .    C *  #   4     
+» $Y9· (¿    +       I ,       
+ - .    D 8  #   4     
+» $Y9· (¿    +       M ,       
+ - .    E *  #   4     
+» $Y9· (¿    +       Q ,       
+ - .    F 8  #   4     
+» $Y9· (¿    +       U ,       
+ - .    G *  #   4     
+» $Y9· (¿    +       Y ,       
+ - .    H I      J #   4     
+» $YK· (¿    +       ] ,       
+ - .    M N      O #   4     
+» $YK· (¿    +       a ,       
+ - .    P 8       Q   #   4     
+» $YR· (¿    +       e ,       
+ - .    T    U      V   W     `     X Z \  ^

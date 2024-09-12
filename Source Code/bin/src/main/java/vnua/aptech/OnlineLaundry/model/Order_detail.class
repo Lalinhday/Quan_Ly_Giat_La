@@ -1,0 +1,62 @@
+Êþº¾   = J  9src/main/java/vnua/aptech/OnlineLaundry/model/Order_detail  java/lang/Object id LLong; RuntimeInvisibleAnnotations LId; LGeneratedValue; strategy order_id 5Lsrc/main/java/vnua/aptech/OnlineLaundry/model/Orders; LJoinColumn; name referencedColumnName LManyToOne; services_id 7Lsrc/main/java/vnua/aptech/OnlineLaundry/model/Services; price I 	LNotNull; message shipping_fee quantity <init> ()V Code  java/lang/Error jUnresolved compilation problems: 
+	The declared package "vnua.aptech.OnlineLaundry.model" does not match the expected package "src.main.java.vnua.aptech.OnlineLaundry.model"
+	The import javax cannot be resolved
+	The import javax cannot be resolved
+	The import javax cannot be resolved
+	The import java.io cannot be resolved
+	Entity cannot be resolved to a type
+	Serializable cannot be resolved to a type
+	Id cannot be resolved to a type
+	GeneratedValue cannot be resolved to a type
+	GenerationType cannot be resolved to a variable
+	Long cannot be resolved to a type
+	JoinColumn cannot be resolved to a type
+	ManyToOne cannot be resolved to a type
+	JoinColumn cannot be resolved to a type
+	ManyToOne cannot be resolved to a type
+	NotNull cannot be resolved to a type
+	Implicit super constructor Object() is undefined. Must explicitly invoke another constructor
+	Implicit super constructor Object() is undefined. Must explicitly invoke another constructor
+	NotNull cannot be resolved to a type
+	Long cannot be resolved to a type
+	Long cannot be resolved to a type
+	Long cannot be resolved to a type
+	Long cannot be resolved to a type
+
+  !  " (Ljava/lang/String;)V LineNumberTable LocalVariableTable this ;Lsrc/main/java/vnua/aptech/OnlineLaundry/model/Order_detail; r(Lsrc/main/java/vnua/aptech/OnlineLaundry/model/Orders;Lsrc/main/java/vnua/aptech/OnlineLaundry/model/Services;III)V $RuntimeInvisibleParameterAnnotations getQuantity ()I , !Unresolved compilation problem: 
+ setQuantity (I)V getId ()LLong; 2 hUnresolved compilation problems: 
+	Long cannot be resolved to a type
+	Long cannot be resolved to a type
+ setId 	(LLong;)V getOrder_id 7()Lsrc/main/java/vnua/aptech/OnlineLaundry/model/Orders; setOrder_id 8(Lsrc/main/java/vnua/aptech/OnlineLaundry/model/Orders;)V getServices_id 9()Lsrc/main/java/vnua/aptech/OnlineLaundry/model/Services; setServices_id :(Lsrc/main/java/vnua/aptech/OnlineLaundry/model/Services;)V getPrice setPrice getShipping_fee setShipping_fee 
+SourceFile Order_detail.java LEntity; InconsistentHierarchy F Long H Serializable MissingTypes !             
+     	          
+               
+                                      4     
+» Y·  ¿    #        $       
+ % &     '  (                   4     
+» Y·  ¿    #        $       
+ % &    ) *     4     
+» Y+·  ¿    #       ) $       
+ % &    - .     4     
+» Y+·  ¿    #       - $       
+ % &    / 0     4     
+» Y1·  ¿    #       1 $       
+ % &    3 4     4     
+» Y1·  ¿    #       5 $       
+ % &    5 6     4     
+» Y+·  ¿    #       9 $       
+ % &    7 8     4     
+» Y+·  ¿    #       = $       
+ % &    9 :     4     
+» Y+·  ¿    #       A $       
+ % &    ; <     4     
+» Y+·  ¿    #       E $       
+ % &    = *     4     
+» Y+·  ¿    #       I $       
+ % &    > .     4     
+» Y+·  ¿    #       M $       
+ % &    ? *     4     
+» Y+·  ¿    #       Q $       
+ % &    @ .     4     
+» Y+·  ¿    #       U $       
+ % &    A    B      C   D     I     E G 

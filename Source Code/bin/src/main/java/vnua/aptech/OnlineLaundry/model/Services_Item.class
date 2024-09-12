@@ -1,0 +1,107 @@
+Êþº¾   = K  :src/main/java/vnua/aptech/OnlineLaundry/model/Services_Item  java/lang/Object id LLong; RuntimeInvisibleAnnotations LId; name Ljava/lang/String; price I type image description quantity 	LInteger; <init> ()V Code  java/lang/Error 	3Unresolved compilation problems: 
+	The declared package "vnua.aptech.OnlineLaundry.model" does not match the expected package "src.main.java.vnua.aptech.OnlineLaundry.model"
+	The import javax cannot be resolved
+	The import javax cannot be resolved
+	The import javax cannot be resolved
+	The import javax cannot be resolved
+	The import javax cannot be resolved
+	The import javax cannot be resolved
+	The import javax cannot be resolved
+	The import javax cannot be resolved
+	The import java.io cannot be resolved
+	Entity cannot be resolved to a type
+	Serializable cannot be resolved to a type
+	Id cannot be resolved to a type
+	Long cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	Integer cannot be resolved to a type
+	Implicit super constructor Object() is undefined. Must explicitly invoke another constructor
+	Implicit super constructor Object() is undefined. Must explicitly invoke another constructor
+	Long cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	Integer cannot be resolved to a type
+	Long cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	Integer cannot be resolved to a type
+	Long cannot be resolved to a type
+	Long cannot be resolved to a type
+	Long cannot be resolved to a type
+	Long cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	Integer cannot be resolved to a type
+	Integer cannot be resolved to a type
+	Integer cannot be resolved to a type
+	Integer cannot be resolved to a type
+
+     (Ljava/lang/String;)V LineNumberTable LocalVariableTable this <Lsrc/main/java/vnua/aptech/OnlineLaundry/model/Services_Item; [(LLong;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;LInteger;)V getId ()LLong; $ hUnresolved compilation problems: 
+	Long cannot be resolved to a type
+	Long cannot be resolved to a type
+ setId 	(LLong;)V getName ()Ljava/lang/String; * lUnresolved compilation problems: 
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+ setName getPrice ()I / !Unresolved compilation problem: 
+ setPrice (I)V getType setType getImage setImage getDescription setDescription getQuantity ()LInteger; ; nUnresolved compilation problems: 
+	Integer cannot be resolved to a type
+	Integer cannot be resolved to a type
+ setQuantity (LInteger;)V 
+SourceFile Services_Item.java LEntity; InconsistentHierarchy C Integer E Long G Serializable I java/lang/String MissingTypes !                   	 
+          
+     
+     
+                4     
+» Y· ¿                   
+             4     
+» Y· ¿                   
+      ! "     4     
+» Y#· ¿           +        
+      % &     4     
+» Y#· ¿           /        
+      ' (     4     
+» Y)· ¿           3        
+      +      4     
+» Y)· ¿           7        
+      , -     4     
+» Y.· ¿           ;        
+      0 1     4     
+» Y.· ¿           ?        
+      2 (     4     
+» Y)· ¿           C        
+      3      4     
+» Y)· ¿           G        
+      4 (     4     
+» Y)· ¿           K        
+      5      4     
+» Y)· ¿           O        
+      6 (     4     
+» Y)· ¿           S        
+      7      4     
+» Y)· ¿           W        
+      8 9     4     
+» Y:· ¿           [        
+      < =     4     
+» Y:· ¿           _        
+      >    ?      @   A     J     B D F  H

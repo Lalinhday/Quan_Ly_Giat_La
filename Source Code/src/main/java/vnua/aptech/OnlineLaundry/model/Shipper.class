@@ -1,0 +1,157 @@
+Êþº¾   = X  4src/main/java/vnua/aptech/OnlineLaundry/model/Shipper  java/lang/Object id Ljava/lang/String; RuntimeInvisibleAnnotations LId; 
+LNotBlank; message LSize; max password phone salary I 	LNotNull; name image status ordersCollection LCollection; 	Signature CLCollection<Lsrc/main/java/vnua/aptech/OnlineLaundry/model/Orders;>; LOneToMany; mappedBy cascade <init> ()V Code   java/lang/Error "Unresolved compilation problems: 
+	The declared package "vnua.aptech.OnlineLaundry.model" does not match the expected package "src.main.java.vnua.aptech.OnlineLaundry.model"
+	The import groovy cannot be resolved
+	The import net cannot be resolved
+	The import javax cannot be resolved
+	The import javax cannot be resolved
+	The import javax cannot be resolved
+	The import javax cannot be resolved
+	The import javax cannot be resolved
+	The import java.io cannot be resolved
+	The import java.util cannot be resolved
+	Entity cannot be resolved to a type
+	Serializable cannot be resolved to a type
+	Id cannot be resolved to a type
+	NotBlank cannot be resolved to a type
+	Size cannot be resolved to a type
+	String cannot be resolved to a type
+	NotBlank cannot be resolved to a type
+	Size cannot be resolved to a type
+	String cannot be resolved to a type
+	NotBlank cannot be resolved to a type
+	Size cannot be resolved to a type
+	String cannot be resolved to a type
+	NotNull cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	OneToMany cannot be resolved to a type
+	CascadeType cannot be resolved to a variable
+	Collection cannot be resolved to a type
+	Implicit super constructor Object() is undefined. Must explicitly invoke another constructor
+	Implicit super constructor Object() is undefined. Must explicitly invoke another constructor
+	NotBlank cannot be resolved to a type
+	Size cannot be resolved to a type
+	String cannot be resolved to a type
+	NotBlank cannot be resolved to a type
+	Size cannot be resolved to a type
+	String cannot be resolved to a type
+	NotBlank cannot be resolved to a type
+	Size cannot be resolved to a type
+	String cannot be resolved to a type
+	NotNull cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	Implicit super constructor Object() is undefined. Must explicitly invoke another constructor
+	NotBlank cannot be resolved to a type
+	Size cannot be resolved to a type
+	String cannot be resolved to a type
+	NotBlank cannot be resolved to a type
+	Size cannot be resolved to a type
+	String cannot be resolved to a type
+	NotBlank cannot be resolved to a type
+	Size cannot be resolved to a type
+	String cannot be resolved to a type
+	NotNull cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	Implicit super constructor Object() is undefined. Must explicitly invoke another constructor
+	NotBlank cannot be resolved to a type
+	Size cannot be resolved to a type
+	String cannot be resolved to a type
+	NotBlank cannot be resolved to a type
+	Size cannot be resolved to a type
+	String cannot be resolved to a type
+	NotBlank cannot be resolved to a type
+	Size cannot be resolved to a type
+	String cannot be resolved to a type
+	NotNull cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+	Collection cannot be resolved to a type
+	Collection cannot be resolved to a type
+
+  $  % (Ljava/lang/String;)V LineNumberTable LocalVariableTable this 6Lsrc/main/java/vnua/aptech/OnlineLaundry/model/Shipper; :(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V $RuntimeInvisibleParameterAnnotations ^(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V _(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;I)V getId ()Ljava/lang/String; 1 lUnresolved compilation problems: 
+	String cannot be resolved to a type
+	String cannot be resolved to a type
+ setId getPassword setPassword getPhone setPhone 	getSalary ()I : !Unresolved compilation problem: 
+ 	setSalary (I)V getName setName getImage setImage B FUnresolved compilation problem: 
+	String cannot be resolved to a type
+ 	getStatus 	setStatus getOrdersCollection ()LCollection; E()LCollection<Lsrc/main/java/vnua/aptech/OnlineLaundry/model/Orders;>; I JUnresolved compilation problem: 
+	Collection cannot be resolved to a type
+ setOrdersCollection (LCollection;)V F(LCollection<Lsrc/main/java/vnua/aptech/OnlineLaundry/model/Orders;>;)V 
+SourceFile Shipper.java LEntity; InconsistentHierarchy R 
+Collection T Serializable V java/lang/String MissingTypes !                  	             
+  	             
+  	                                                          4     
+» Y!· #¿    &        '       
+ ( )     *  +   %  	       	       	             4     
+» Y!· #¿    &        '       
+ ( )     ,  +   )  	       	       	                 4     
+» Y!· #¿    &        '       
+ ( )     -  +   +  	       	       	                   4     
+» Y!· #¿    &        '       
+ ( )    . /     4     
+» Y0· #¿    &       G '       
+ ( )    2 %     4     
+» Y0· #¿    &       K '       
+ ( )    3 /     4     
+» Y0· #¿    &       O '       
+ ( )    4 %     4     
+» Y0· #¿    &       S '       
+ ( )    5 /     4     
+» Y0· #¿    &       W '       
+ ( )    6 %     4     
+» Y0· #¿    &       [ '       
+ ( )    7 8     4     
+» Y9· #¿    &       _ '       
+ ( )    ; <     4     
+» Y9· #¿    &       c '       
+ ( )    = /     4     
+» Y0· #¿    &       g '       
+ ( )    > %     4     
+» Y0· #¿    &       k '       
+ ( )    ? /     4     
+» Y0· #¿    &       o '       
+ ( )    @ %     4     
+» YA· #¿    &       s '       
+ ( )    C 8     4     
+» Y9· #¿    &       w '       
+ ( )    D <     4     
+» Y9· #¿    &       { '       
+ ( )    E F      G    4     
+» YH· #¿    &        '       
+ ( )    J K      L    4     
+» YH· #¿    &       ƒ '       
+ ( )    M    N      O   P     W   
+  Q S  U

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Shipper Report</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" th:href="@{css/report.css}">
+</head>
+<body>
+<div id="photo">
+    <p id="printReport"><b class="printReportTitle">Print Report:</b> <button onclick="printContent('reportShipper')" class="btn btn-success">Print</button></p>
+    <hr style="margin: 0 90px 0 90px"/>
+    <div class="container" id="reportShipper">
+        <div class="item1">
+            <div class="logo">
+                <h1><b style="color: #0dcaf0">Group</b>6</br>Laundry</h1>
+            </div>
+            <div class="information">
+                <p><b>0981266403</b></p>
+                <p><b th:text="${current_date}">Tuesday, August 31, 2021 </b></p>
+                <p><b>Học viện Nông nghiệp Việt Nam</b></p>
+            </div>
+        </div>
+
+        <div class="item2">
+            <p class="title-report">Báo cáo Shipper</p>
+        </div>
+
+        <br/>
+        <div class="item3">
+            <table class="table" style="flex-grow: 8;" >
+                <thead class="thead-dark">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">TÊN</th>
+                    <th scope="col">HÌNH ẢNH</th>
+                    <th scope="col">SỐ ĐIỆN THOẠI</th>
+                    <th scope="col">LƯƠNG</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="e :${shipperList}">
+                    <th scope="row" th:text="${e.getId()}">S001</th>
+                    <td th:text="${e.getName()}">123</td>
+                    <td>
+                        <img th:src="@{'images/shipers-link_image/'+${e.getImage()}}" alt="image-users" width="150" height="150"/>
+                    </td>
+                    <td th:text="${e.getPhone()}">0896494789</td>
+                    <td th:text="${e.getSalary()}+' đồng'">120</td>
+                </tr>
+                <tr style="background-color: #ccff99">
+                    <th></th>
+                    <td></td>
+                    <td></td>
+                    <td class="total" >Tổng cộng:</td>
+                    <td th:text="${salaryTotal}+' đồng'">220</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    function printContent(el){
+        var restorepage = document.body.innerHTML;
+        var printcontent = document.getElementById(el).innerHTML;
+        document.body.innerHTML = printcontent;
+        window.print();
+        document.body.innerHTML = restorepage;
+    }
+</script>
+</html>

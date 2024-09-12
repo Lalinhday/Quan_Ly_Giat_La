@@ -1,0 +1,4 @@
+Êþº¾   =   Csrc/main/java/vnua/aptech/OnlineLaundry/repository/ShipperRepository  java/lang/Object 
+SourceFile ShipperRepository.java 	Signature 4Ljava/lang/Object;LJpaRepository<LShipper;LString;>; InconsistentHierarchy  JpaRepository  Shipper  String MissingTypes                    	        
+  
+   

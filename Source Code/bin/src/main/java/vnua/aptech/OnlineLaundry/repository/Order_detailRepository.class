@@ -1,0 +1,4 @@
+Êþº¾   =   Hsrc/main/java/vnua/aptech/OnlineLaundry/repository/Order_detailRepository  java/lang/Object 
+SourceFile Order_detailRepository.java 	Signature 7Ljava/lang/Object;LJpaRepository<LOrder_detail;LLong;>; InconsistentHierarchy  JpaRepository  Long  Order_detail MissingTypes                    	        
+  
+   
